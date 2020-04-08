@@ -20,5 +20,4 @@ wget -q https://www.game.tv/tournament-sitemap.xml -O - | egrep -o "<loc>[^<>]*<
 #wget -q https://www.game.tv/tournament-sitemap3.xml -O - | egrep -o "<loc>[^<>]*</loc>" | sed -e 's:</*loc>::g' | parallel -j 100 wget -q --convert-links {} -O {/}.html
 #wget -q https://www.game.tv/tournament-sitemap4.xml -O - | egrep -o "<loc>[^<>]*</loc>" | sed -e 's:</*loc>::g' | parallel -j 100 wget -q --convert-links {} -O {/}.html
 #wget -q https://www.game.tv/tournament-sitemap5.xml -O - | egrep -o "<loc>[^<>]*</loc>" | sed -e 's:</*loc>::g' | parallel -j 100 wget -q --convert-links {} -O {/}.html
-#wget -q https://www.game.tv/tournament-sitemap6.xml -O - | egrep -o "<loc>[^<>]*</loc>" | sed -e 's:</*loc>::g' | parallel -j 100 wget -q --convert-links {} -O {/}.html
-~                                                                                                                                                                         
+#wget -q https://www.game.tv/tournament-sitemap6.xml -O - | egrep -o "<loc>[^<>]*</loc>" | sed -e 's:</*loc>::g' | parallel -j 100 wget -q --convert-links {} -O {/}.html                                                                                                                                                                   
